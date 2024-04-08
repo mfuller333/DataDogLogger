@@ -58,5 +58,9 @@
   <ItemGroup>
     <None Include="ddkey.snk" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataDogEvents.dll" />
+    <Content Include="DataDogEvents.pdb" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
